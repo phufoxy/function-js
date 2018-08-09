@@ -32,11 +32,22 @@
 }
 
 .panel {
-    padding: 0 18px 0 18px;
+    padding: 0px 18px 0 18px;
     background: white;
     max-height: 0px;
-    width: 50%;
+    width: 40%;
     overflow: hidden;
     transition: max-height 0.2s ease-in;
     text-align: center;
+    border: 1px solid violet;
+    background: #444;
+}
+
+.panel i {
+    font-size: 30px;
+    color: red;
+}
+
+.panel p {
+    color: #fff;
 }
